@@ -1,7 +1,17 @@
 diff -up chrono-0.4.19/Cargo.toml.1~ chrono-0.4.19/Cargo.toml
 --- chrono-0.4.19/Cargo.toml.1~	2020-09-30 17:06:24.000000000 +0200
-+++ chrono-0.4.19/Cargo.toml	2021-03-26 00:47:58.495047360 +0100
-@@ -93,25 +93,11 @@ version = "1"
++++ chrono-0.4.19/Cargo.toml	2021-03-27 23:10:24.722885085 +0100
+@@ -72,9 +72,6 @@ optional = true
+ [dev-dependencies.bincode]
+ version = "0.8.0"
+ 
+-[dev-dependencies.criterion]
+-version = "0.3"
+-
+ [dev-dependencies.doc-comment]
+ version = "0.3"
+ 
+@@ -93,25 +90,11 @@ version = "1"
  __doctest = []
  __internal_bench = []
  alloc = []

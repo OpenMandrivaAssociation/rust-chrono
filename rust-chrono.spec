@@ -5,7 +5,7 @@
 
 Name:           rust-%{crate}
 Version:        0.4.19
-Release:        2
+Release:        3
 Summary:        Date and time library for Rust
 
 # Upstream license specification: MIT/Apache-2.0
